@@ -18,7 +18,7 @@ or, you rpreferred LLM API
 
 1. You fill in 6 questions about your idea
 2. The app auto-researches competitors, market size, and demand signals via DuckDuckGo (free, no API key)
-3. GPT-4o mini scores your idea across 6 rubrics
+3. Claude Sonnet 4.5 scores your idea across 6 rubrics
 4. You get a structured report with a verdict, scores, risks, and next steps
 
 ## Scoring Rubrics
