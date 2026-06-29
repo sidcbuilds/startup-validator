@@ -36,5 +36,5 @@ Opens at http://localhost:8501
 | 🏹 YC RFS Alignment | 0.8x | 2026 investment theme fit, timing |
 | 🏰 AI-Era Moat | 1.5x | Defensibility against OpenAI/Google replication |
 
-This is hosted on streamlit cloud. 
+This is hosted on streamlit cloud. (Reach out to me for the link - It is in a private testing phase)
 
