@@ -36,26 +36,5 @@ Opens at http://localhost:8501
 | 🏹 YC RFS Alignment | 0.8x | 2026 investment theme fit, timing |
 | 🏰 AI-Era Moat | 1.5x | Defensibility against OpenAI/Google replication |
 
-## Hosting on Streamlit Cloud (free, shareable URL)
+This is hosted on streamlit cloud. 
 
-Your API keys live in `.env` locally and are **never** pushed (`.gitignore` excludes them). On the cloud, keys go in Streamlit's encrypted Secrets.
-
-1. **Create a GitHub repo** and push:
-   ```powershell
-   git init
-   git add -A
-   git commit -m "Startup idea validator"
-   git remote add origin https://github.com/<user>/<repo>.git
-   git push -u origin main
-   ```
-2. Go to **https://share.streamlit.io** → sign in with GitHub → **New app**
-3. Pick your repo, branch `main`, main file `app.py`
-4. Open **Advanced → Secrets** and paste (see `.streamlit/secrets.toml.example`):
-   ```toml
-   LLM_PROVIDER = "anthropic"
-   ANTHROPIC_API_KEY = "sk-ant-..."
-   ANTHROPIC_MODEL = "claude-sonnet-4-5"
-   ```
-5. **Deploy** — you get a public `https://<app>.streamlit.app` URL for the demo
-
-Anyone with the URL can use it; the keys stay encrypted in Secrets, billed to your Anthropic account.
