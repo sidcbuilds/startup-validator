@@ -12,11 +12,7 @@ OPENAI_API_KEY=sk-your-key-here
 ```
 Get a key at https://platform.openai.com/api-keys
 
-**2. Run the app**
-```powershell
-python -m streamlit run app.py
-```
-Opens at http://localhost:8501
+or, you rpreferred LLM API
 
 ## How it works
 
